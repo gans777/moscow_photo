@@ -1,0 +1,300 @@
+@font-face {
+    font-family: FuturaLightC;
+    src: url('Futura/FuturaLightC.ttf');
+}
+
+@font-face {
+    font-family: FuturaL;
+    src: url('Futura/8201.ttf');
+}
+
+body {
+	 font-family: FuturaLightC;
+	 padding-top: 35px;
+	 padding-bottom: 35px;
+}
+a:hover {
+	 text-decoration: none; 
+}
+.wrap_all a {
+	color:black ;
+}
+.wrap_all{
+	max-width: 1175px;
+	margin: 0 auto;
+	border:1px solid yellow;
+}
+a {
+	 font-size: 16px;
+}
+.header a {
+   font-size: 16px;
+   
+}
+.header_up {
+	border: 1px solid red;
+}
+.header_up:after,
+.header_bottom:after
+ {
+	content		: " ";
+	visibility	: hidden;
+	display		: block;
+	height		: 0;
+	clear		: both;
+}
+.logo {
+	font-size: 36px;
+}
+.header_up_left,
+.logo
+ {
+	float: left;
+	text-transform: uppercase;
+
+}
+
+.header_up_right,
+.menu
+ {
+	float: right;
+	list-style: none;
+	display: flex;
+}
+.header_up_right li {
+	margin-left: 20px;
+	
+} 
+.header_up_right li  a{
+	font-size: 14px;
+}
+.header_up_right li a i {
+	font-size: 18px;
+}
+
+.menu  {
+	margin-top: 10px;
+}
+.menu_item a {
+ font-size: 19px;
+ text-transform: uppercase;
+ margin-left: 30px;
+}
+.header_bottom {
+	border: 1px solid green;
+
+}
+
+.active a {
+	color: #113dad;
+}
+
+
+/* блок средний с новостями */
+
+.wrap_nowosti {
+	width: 100%;
+	border:2px solid blue;
+	text-align: center;
+	margin-top:70px;
+}
+.wrap_nowosti h2 a {
+	font-size: 33px;
+	text-transform: uppercase;
+	
+}
+.wrap_nowosti h2 {
+	margin-bottom: 67px;
+}
+.nowost_item {
+	width: 370px;
+	height: 428px;
+	margin-right: 26px;
+
+ }
+
+
+
+
+.nowost_item  p {
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-left: 29px;
+	margin-right: 50px;
+	margin-top: 30px;
+
+}
+.nowost_item  a:hover {
+	color:#113dad;
+}
+.wrap_for_2_nowost_item {
+	display: flex;
+}
+.wrap_for_4_nowost_item {
+	float: left;
+}
+.wrap_nowosti:after
+ {
+	content		: " ";
+	visibility	: hidden;
+	display		: block;
+	height		: 0;
+	clear		: both;
+}
+
+
+/*  синий баннер КОНФЕРЕНЦИЯ: СДЕЛАНО В БУДУЩЕМ. СОВРЕМЕННОЕ ИСКУССТВО И МОДА В ПЕРСПЕКТИВЕ */
+.big_obyavlenie {
+	width: 100%;
+	height: 288px;
+	text-align: center;
+	
+	background: #002fa7;
+	display: flex;
+	justify-content: center;
+	flex-direction:column;
+}
+
+.big_obyavlenie>span {
+	color:#ffffff;
+	font-size: 33px;
+	margin-left: 176px;
+	margin-right: 170px;
+}
+
+/* подписка на рассылку новостей */
+.wrap_rassilka {
+	text-align: center;
+	margin-top: 76px;
+}
+.wrap_rassilka span {
+	text-transform: uppercase;
+	font-size: 33px;
+}
+.wrap_rassilka form {
+	border-bottom: 3px solid #000000;
+	width:365px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+
+}
+.wrap_rassilka button {
+	background: #ffffff;
+	border:2px solid #ffffff;
+}
+.wrap_rassilka input {
+	width: 265px;
+	font-size: 16px;
+	border: 2px solid #ffffff;
+}
+
+/* нижний слайдер */
+
+#slider_down {
+	width: 1170px;
+	height: 376px;
+	border: 2px solid red;
+	overflow: hidden;
+	position: relative;
+	
+
+
+}
+#slider_down ul {
+	width: 100%;
+	list-style: none;
+	display: flex;
+	position: absolute;
+	top: 0;
+	left:-40px;
+
+}
+#slider_down ul li {
+	margin-right: 20px;
+}
+.gals_item {
+	width: 270px;
+	padding: 5px;
+	text-align: left;
+	text-transform:  uppercase;
+	
+}
+
+.gals_item p{
+ margin-left: 21px;
+ margin-top: 15px;
+}
+.gals_item img{
+ margin-top: 25px;
+}
+
+.wrap_strelki{
+ display: flex;
+ position: absolute;
+ bottom:20px;
+ left:50%;
+ margin-left: -100px;
+}
+.strelki {
+ margin-right: 10px;
+ border: 1px solid red;
+}
+
+.wrap_down_slider {
+	text-align: center;
+	margin-top: 82px;
+}
+.wrap_down_slider h2 {
+	text-transform:  uppercase;
+}
+
+.gals_item p{
+ margin-left: 21px;
+ margin-top: 15px;
+}
+.gals_item img{
+ margin-top: 25px;
+}
+.galer_gde {
+	margin-left: 21px;
+	color: #afafaf;
+}
+
+/* footer */
+
+.footer {
+	text-transform: uppercase;
+	display:flex;
+	justify-content: space-between;
+	color: #afafaf;
+}
+
+
+.footer_left_menu {
+	list-style: none;
+	display: flex;
+}
+.footer_left_menu li {
+	margin-right: 56px;
+}
+.footer_left_menu li a {
+	color: #afafaf;
+}
+
+.footer_right_social {
+	list-style: none;
+	display: flex;
+}
+
+.footer_right_social li {
+	margin-right: 15px;	
+}
+
+@media screen and (max-width: 1169px) {
+
+   .wrap_for_2_nowost_item:first-child {
+	border:5px solid red;
+	flex-direction: column-reverse;
+}
+}
